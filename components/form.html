@@ -37,6 +37,7 @@
       const form = document.querySelector('form');
       const dropdown = document.querySelector('#dropdown');
       const resultDiv = document.querySelector('#result');
+      
 
       options.forEach(option => {
         const optionElement = document.createElement('option');
@@ -103,7 +104,7 @@
           console.log(arrayData[index2][3])
           console.log(arrayData[index1][3])
 
-          resultText = result + 'Minutes';
+          resultText =result + 'Minutes';
           console.log('Hello')
         } else {
           resultText = 'Please Enter the destination mentioned';
@@ -312,7 +313,9 @@
 
 
 
-  <div id="result"></div>
+  <div>
+    <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl"  id="result" ></h1>
+  </div>
 
 </body>
 
